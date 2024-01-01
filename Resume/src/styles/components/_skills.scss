@@ -1,0 +1,121 @@
+.skills-main-container {
+  margin-top: 150px;
+  z-index: 99999;
+}
+
+.skills-strip-container {
+  background-color: #601b59;
+  width: 100vw;
+  height: 87px;
+  opacity: 46%;
+  position: sticky;
+  z-index: 99999;
+}
+.skills-strip-container-text {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  z-index: -1;
+  opacity: 100%;
+  position: relative;
+  z-index: 9999;
+}
+.skills-buttons-container {
+  width: 100vw;
+  height: 200px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.skills-main-button- {
+  &1,
+  &2,
+  &3,
+  &4,
+  &5,
+  &6,
+  &7,
+  &8,
+  &9,
+  &10,
+  &11,
+  &12 {
+    width: 65px;
+    height: 65px;
+    border: none;
+    background-color: #928d8d;
+    border-radius: 50px;
+    display: inline-flex;
+    margin-right: 66px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    z-index: 99999999999;
+    position: relative;
+    &:hover {
+      scale: 1.1;
+      background-color: #ffffff;
+    }
+  }
+}
+
+.img- {
+  z-index: 999;
+  &1,
+  &2,
+  &3,
+  &4,
+  &5,
+  &6,
+  &7,
+  &8,
+  &9,
+  &10,
+  &11,
+  &12 {
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  &1,
+  &2,
+  &3,
+  &4,
+  &5,
+  &6,
+  &7,
+  &8,
+  &9,
+  &10,
+  &11,
+  &12 {
+    width: 39px;
+    height: 39px;
+  }
+  &1,
+  &2,
+  &3 {
+    width: 30px;
+    height: 30px;
+    margin-top: 18px;
+    margin-left: 18px;
+  }
+}
+
+.skills-radial {
+  width: 621px;
+  height: 635px;
+  background: radial-gradient(
+    circle,
+    rgba(186, 52, 220, 0.135) 30%,
+    rgba(210, 57, 235, 0) 60%
+  );
+  position: absolute;
+  left: -200px;
+  top: 600px;
+  padding-left: 300px;
+  background-size: cover;
+  z-index: 2;
+}

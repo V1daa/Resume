@@ -1,0 +1,144 @@
+.info-container {
+  margin-left: 138px;
+  margin-top: 126px;
+  .info-main-text {
+    color: #ffffff;
+    font-size: 64px;
+    font-family: $font-main;
+    font-weight: 200;
+  }
+  .info-name-text {
+    color: #ffffff;
+    font-family: $font-main;
+    font-weight: 200;
+    font-size: 40px;
+  }
+  .info-gradient-container {
+    background: linear-gradient(
+      90deg,
+      rgba(204, 84, 234, 1) 25%,
+      rgba(249, 176, 66, 1) 45%,
+      rgba(210, 57, 235, 1) 74%
+    );
+    width: 450px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.info-man-image {
+  position: absolute;
+  top: 190px;
+  right: 300px;
+  z-index: 999;
+  display: flex;
+  width: 550px;
+  height: 400px;
+}
+
+.info-corner-radius {
+  position: absolute;
+  right: 0;
+  top: 53px;
+}
+
+.info-radial {
+  width: 750px;
+  height: 700px;
+  background: radial-gradient(
+    circle,
+    rgba(186, 52, 220, 0.303) 39%,
+    rgba(210, 57, 235, 0) 65%
+  );
+  position: absolute;
+  right: -350px;
+  top: 60px;
+  padding-left: 300px;
+  background-size: cover;
+}
+
+.info-buttons-main {
+  position: absolute;
+  top: 490px;
+  left: 103px;
+  display: flex;
+  &-1,
+  &-2,
+  &-3 {
+    transition: background 0.3s ease-in-out, scale 0.3s ease-in-out, box-shadow 0.1s ease;
+    width: 52px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #282727;
+    border: none;
+    margin-left: 34px;
+    box-shadow: 0px 0px 15px black;
+    cursor: pointer;
+    &:active {
+      box-shadow: 0px 0px 50px black;
+      scale: 1.2;
+    }
+    &:hover {
+      background: #ffffff;
+      scale: 1.1;
+    }
+  }
+  &-2 {
+    margin-top: auto;
+  }
+}
+
+.info-telegram-image {
+  width: 29px;
+  height: 35px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+.info-about-container {
+  margin-top: 120px;
+  margin-left: 138px;
+}
+
+.info-about-header {
+  color: #ffffff;
+  font-family: $font-main;
+  font-size: 36px;
+  font-weight: 200;
+}
+
+.info-about-paragraph {
+  color: #b0b0b0;
+  width: 565px;
+  margin-top: 16px;
+}
+
+.info-about-line1 {
+  margin-top: 38px;
+}
+
+.info-cv-button {
+  width: 194px;
+  height: 36px;
+  background-color: #fefafa;
+  border: none;
+  color: #d239eb;
+  margin-left: 36px;
+  margin-top: 8px;
+  border-radius: 9px;
+  font-family: $font-main;
+  font-weight: 200;
+  font-size: 16px;
+  box-shadow: 0px 0px 15px black;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0px 0px 15px white;
+    scale: 1.1;
+    font-size: 18px;
+  }
+  &:active {
+    box-shadow: 0px 0px 30px white;
+  }
+}
+

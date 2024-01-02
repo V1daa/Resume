@@ -1,0 +1,41 @@
+.footer-main-container {
+  width: 100vw;
+  height: 285px;
+  background-color: #d3d3d385;
+}
+
+.footer-main-info {
+  & > h1 {
+    font-family: $font-main;
+    font-weight: 100;
+    color: #ffffff;
+    margin-left: 2vw;
+    padding-top: 6vh;
+    font-size: 46px;
+  }
+  & > p {
+    font-family: $font-main;
+    margin-left: 2vw;
+    font-weight:lighter;
+    color: #ffffff;
+    margin-right: 70vw;
+    margin-top: 3vh;
+    font-size: 20px;
+    
+  }
+}
+
+.footer-line-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+    margin-left: 15vw;
+    & > h1 {
+        color: #ffffff;
+        font-family: $font-main;
+        font-weight: 100;
+        font-size: 13px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+}

@@ -14,7 +14,7 @@ import ps from "../images/ps.svg";
 const Skills = () => {
   return (
     <div className="skills-main-container">
-        <div className="skills-radial"></div>
+      <div className="skills-radial"></div>
       <div className="skills-strip-container">
         <h1 className="skills-strip-container-text">Skills</h1>
       </div>
@@ -47,8 +47,6 @@ const Skills = () => {
           <button className="skills-main-button-9">
             <img src={jqery} className="img-9"></img>
           </button>
-        </div>
-        <div className="skills-main-button-second-column">
           <button className="skills-main-button-10">
             <img src={bt} className="img-10"></img>
           </button>

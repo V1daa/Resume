@@ -2,7 +2,7 @@ import man from "../images/Low code development-pana 1.svg";
 import telegram from "../images/Mask group.svg";
 import github from "../images/github1.svg";
 import ind from "../images/in.svg";
-import line1 from '../images/Line 1.svg'
+import line1 from "../images/Line 1.svg";
 
 const Info = () => {
   return (
@@ -15,14 +15,20 @@ const Info = () => {
           <h1>& ui | ux Designer</h1>
         </div>
       </div>
-      <img src={man} alt="#" className="info-man-image"></img>    
-      <div className="info-radial-container"><div className="info-radial"></div></div>
+      <img src={man} alt="#" className="info-man-image"></img>
+      <div className="info-radial-container">
+        <div className="info-radial"></div>
+      </div>
       <div className="info-buttons-main">
         <button className="info-buttons-main-1">
-          <img src={telegram} alt="#" className="info-telegram-image" />
+          <a href="https://t.me/v1daaaa" target="blank">
+            <img src={telegram} alt="#" className="info-telegram-image" />
+          </a>
         </button>
         <button className="info-buttons-main-2">
-          <img src={github} alt="#" className="info-github-image" />
+          <a href="https://github.com/V1daa/Resume" target="blank">
+            <img src={github} alt="#" className="info-github-image" />
+          </a>
         </button>
         <button className="info-buttons-main-3">
           <img src={ind} alt="#" className="info-in-image" />

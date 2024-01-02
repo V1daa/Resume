@@ -4,15 +4,15 @@
 }
 
 .skills-strip-container {
-  background-color: #601b59;
+  background-color: #601b59a2;
   width: 100vw;
   height: 87px;
-  opacity: 46%;
   position: sticky;
   z-index: 99999;
+
 }
 .skills-strip-container-text {
-  color: #ffffff;
+  color: #ffffff9c;
   display: flex;
   justify-content: center;
   padding-top: 10px;
@@ -117,5 +117,7 @@
   top: 600px;
   padding-left: 300px;
   background-size: cover;
-  z-index: 2;
+  z-index: -999;
 }
+
+

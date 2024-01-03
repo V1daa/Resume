@@ -38,6 +38,7 @@ const Skills = () => {
           <button className="skills-main-button-6">
             <img src={git} className="img-6"></img>
           </button>
+
           <button className="skills-main-button-7">
             <img src={scss} className="img-7"></img>
           </button>

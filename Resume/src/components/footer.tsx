@@ -5,6 +5,7 @@ const Footer = () => {
     <>
       <div className="footer-main-container">
         <div className="footer-main-info">
+          
           <h1>Dmytro Volia</h1>
           <p>
              Languages: English, Polish, Ukrainian, Russian.

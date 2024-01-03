@@ -16,6 +16,9 @@
   -webkit-text-fill-color: transparent;
   font-family: $font-main;
   font-size: 36px;
+  @media(max-width: 670px) {
+   display: none;   
+  }
 }
 
 .header-buttons {
@@ -44,5 +47,10 @@
             color: #1B1818;
             scale: 1.1;
         }
+    }
+    @media(max-width: 670px) {
+      justify-content: flex-start;
+      margin-left: 7vw;
+      
     }
 }

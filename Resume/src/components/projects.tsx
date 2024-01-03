@@ -22,7 +22,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="first-project-container">
+        <div className="first-project-container-2">
           <img
             src={temporary}
             alt="#"
@@ -39,7 +39,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="first-project-container">
+        <div className="first-project-container-3">
           <img
             src={temporary}
             alt="#"

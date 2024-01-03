@@ -21,7 +21,9 @@
     margin-right: 70vw;
     margin-top: 3vh;
     font-size: 20px;
-    
+    @media(max-width: 850px) {
+      margin-right: 0;
+    }
   }
 }
 
@@ -30,6 +32,17 @@
     flex-direction: row;
     margin-top: 4vh;
     margin-left: 15vw;
+    @media (max-width: 1660px) {
+      margin-left: 10vw;
+    }
+    @media (max-width: 1534px) {
+      margin-left:  5vw;
+    }
+    & > img {
+      @media(max-width: 1430px) {
+        display: none;
+      }
+    }
     & > h1 {
         color: #ffffff;
         font-family: $font-main;
@@ -37,5 +50,9 @@
         font-size: 13px;
         margin-left: 2vw;
         margin-right: 2vw;
+        
+        @media(max-width: 1430px) {
+          display: none;
+        }
     }
 }

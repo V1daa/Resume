@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <div>
       <>
-        <div className="portfolio-main-container">
-          <h2 className="portfolio-text-main" id="info">Portfolio</h2>
+        <div className="portfolio-main-container" id="info">
+          <h2 className="portfolio-text-main">Portfolio</h2>
           <div className="header-buttons">
               <button className="header-buttons-2">
             <Link

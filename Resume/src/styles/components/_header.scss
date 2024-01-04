@@ -1,7 +1,7 @@
 .portfolio-text-main {
-    position: absolute;
-    top: 49px;
-    left: 69px;
+  position: absolute;
+  top: 49px;
+  left: 69px;
 
   width: 140px;
   background: linear-gradient(
@@ -16,41 +16,78 @@
   -webkit-text-fill-color: transparent;
   font-family: $font-main;
   font-size: 36px;
-  @media(max-width: 670px) {
-   display: none;   
+  @media (max-width: 670px) {
+    display: none;
   }
 }
 
 .header-buttons {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 88px;
-    &-1,
-    &-2,
-    &-3 {
-        width: 100px;
-        height: 45px;
-        background: none;
-        border: 2px solid #6C6969;
-        border-radius: 6px;
-        margin-left: 20px;
-        font-family: $font-main;
-        font-size: 16px;
-        color: #ffffff;
-        margin-top: 47px;
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-        z-index: 9999;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 88px;
+  &-1,
+  &-2,
+  &-3 {
+    width: 100px;
+    height: 45px;
+    background: none;
+    border: 2px solid #6c6969;
+    border-radius: 6px;
+    margin-left: 20px;
+    font-family: $font-main;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 47px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 99999999999999999;
 
-        &:hover {
-            background: #ffffff;
-            color: #1B1818;
-            scale: 1.1;
-        }
+    &:hover {
+      background: #ffffff;
+      color: #1b1818;
+      scale: 1.1;
     }
-    @media(max-width: 670px) {
-      justify-content: flex-start;
-      margin-left: 7vw;
-      
+  }
+  @media (max-width: 670px) {
+    justify-content: flex-start;
+    margin-left: 7vw;
+  }
+  &-1 {
+    position: fixed;
+    z-index: 999999999999999999999;
+    background: #ffffff;
+    color: #1b1818;
+    scale: 1.1;
+    &:hover {
+      scale: 1.2;
     }
+  }
+  &-3 {
+    margin-right: 6.5vw;
+  }
+}
+
+.header-buttons-2,
+.header-buttons-3 {
+  & > a {
+    color: #ffffff;
+    font-family: $font-main;
+    font-weight: 100;
+  }
+}
+
+.header-buttons-2,
+.header-buttons-3 {
+  &:hover {
+    & > a {
+      color: #1b1818 ;
+    }
+  }
+}
+
+.header-buttons-1 {
+  & > a {
+    font-family: $font-main;
+    font-weight: 100;
+  }
 }

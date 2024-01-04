@@ -5,7 +5,7 @@
   position: sticky;
   margin-top: 10vh;
   z-index: 99999;
-  @media(max-width: 1660px) {
+  @media (max-width: 1660px) {
     margin-top: 35vh;
   }
 }
@@ -42,10 +42,10 @@
   &:hover {
     scale: 1.1;
   }
-  @media(max-width: 1380px) {
+  @media (max-width: 1380px) {
     margin-top: 8vh;
   }
-  @media(max-width: 850px) {
+  @media (max-width: 850px) {
     display: none;
   }
 }
@@ -67,7 +67,7 @@
     width: 20vw;
     height: 2.3vh;
     padding-left: 0.5vw;
-    @media(max-width: 850px) {
+    @media (max-width: 850px) {
       width: 30vw;
     }
   }
@@ -76,7 +76,7 @@
     height: 200px;
     padding-bottom: 8.5vw;
     padding-left: 0.5vw;
-    @media(max-width: 850px) { 
+    @media (max-width: 850px) {
       width: 30vw;
     }
   }
@@ -91,7 +91,7 @@
 .contact-info-container {
   margin-left: 12vw;
   margin-top: 3vh;
-  @media(max-width: 850px) {
+  @media (max-width: 850px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,3 +99,21 @@
   }
 }
 
+.contact-submit {
+  display: block;
+  width: 100px;
+  height: 45px;
+  background: none;
+  border: 2px solid #6c6969;
+  border-radius: 6px;
+  font-family: $font-main;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: #ffffff;
+    color: #1b1818;
+    scale: 1.1;
+  }
+}

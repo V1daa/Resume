@@ -52,7 +52,6 @@
     margin-left: 40px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-    z-index: 99999999999;
     position: relative;
     @media(max-width: 770px) {
       margin-top: 3vh;
@@ -65,7 +64,6 @@
 }
 
 .img- {
-  z-index: 999;
   &1,
   &2,
   &3,

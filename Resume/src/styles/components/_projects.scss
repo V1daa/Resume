@@ -10,6 +10,7 @@
   @media(max-width: 770px) {
     margin-top: 450px;
   }
+  
 }
 
 .projects-title-main {
@@ -87,5 +88,8 @@
     flex-direction: column;
     margin-right: 10vw;
     align-items: center;
+  }
+  @media(max-width: 500px) {
+    margin: 0;
   }
 }

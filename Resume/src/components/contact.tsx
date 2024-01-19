@@ -27,7 +27,7 @@ const Contact = () => {
       );
   };
   return (
-    <>
+    <div className="contact-container">
       <div className="contact-strip-container">
         <h1 className="contact-paragraph" id="contact">Contact</h1>
       </div>
@@ -63,7 +63,7 @@ const Contact = () => {
           </div>
         </div>
       </form>
-    </>
+    </div>
   );
 };
 

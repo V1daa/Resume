@@ -6,12 +6,18 @@
     font-size: 64px;
     font-family: $font-main;
     font-weight: 200;
+    @media(max-width: 540px) {
+      font-size: 30px;
+    }
   }
   .info-name-text {
     color: #ffffff;
     font-family: $font-main;
     font-weight: 200;
     font-size: 40px;
+    @media(max-width: 540px) {
+      font-size: 20px;
+    }
   }
   .info-gradient-container {
     background: linear-gradient(
@@ -24,6 +30,11 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    & > h1 {
+        @media(max-width: 540px) {
+          font-size: 40px;
+        }
+        }
   }
   @media(max-width: 670px) {
     margin-top: 50px;
@@ -73,6 +84,7 @@
   top: 490px;
   left: 8vw;
   display: flex;
+  
   &-1,
   &-2,
   &-3 {
@@ -99,6 +111,10 @@
   }
   @media(max-width: 670px) {
       top: 420px;
+  }
+  @media(max-width: 540px) {
+    top: 350px;
+    left: 4vw;
   }
 }
 
@@ -137,6 +153,9 @@
   @media(max-width: 1000px) {
     margin-left: 5vw;
   }
+  @media(max-width: 540px) {
+    width: 100px;
+  }
   
 }
 
@@ -167,5 +186,8 @@
 .info-about-line1 {
   margin-top: 38px;
   z-index: 9999;
+  @media(max-width: 540px) {
+    display: none;
+  }
 }
 
